@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Project4",
+    "slug": "Project4",
+    "version": "1.0.0",
+    "plugins": ["@react-native-firebase/app", "@react-native-firebase/auth"],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.chetan_salunke.Project4"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d9877066-91b3-46aa-bc79-a92f464b97c4"
+      }
+    }
+  }
+}

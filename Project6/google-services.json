@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "295562015841",
+    "firebase_url": "https://sparklemaidsolution-default-rtdb.firebaseio.com",
+    "project_id": "sparklemaidsolution",
+    "storage_bucket": "sparklemaidsolution.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:295562015841:android:a18df772e10bfbb660e620",
+        "android_client_info": {
+          "package_name": "com.chetan_salunke.Project4"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTKjYkK6hurXoF66dMdH-8BbXv9RUJOSw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

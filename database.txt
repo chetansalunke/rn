@@ -1,0 +1,43 @@
+User Registration Service:
+	Database Table:
+	registration_table:
+		user_id (int primarykey){autoincrement}
+		username (varchar(255))(unique not null)
+		emai (varchar(255)) unique not null
+		mobile_no (varchar) NOT NULL
+		password (Varchar(255)) not null 
+		full_name (varchar(255))
+		reg_date (TIMESTAMP DEFAULT CURRENT_TIMESTAMP)
+		verify_status (Boolean) Default false
+
+Validiate Otp Service :
+	Database Table:
+	otp_valiadations:
+		validation_id (INT) 	primary key Auto_Increment 
+		user_id (INT),
+		otp_code (varchar(6)) not null
+		is_verified (boolean) default false,
+		created_at (Timestamp) default current_timestamp
+		expires_at (Timestamp) default (current_timestamp + 5 minutes),
+		foreign key(user_id)
+
+getCategory Service getDetails :
+	Database Table:
+	categories:
+		category_id (Int) primary key auto_increment
+		category_name(varchar(100)) not null,
+		features
+	products:
+		product_id (INT) primary key auto_increment
+		poduct_name (varchar(100)) not null
+		price not null 
+		product_description 
+		category_id (int)
+
+	
+	
+
+
+		
+	
+	
